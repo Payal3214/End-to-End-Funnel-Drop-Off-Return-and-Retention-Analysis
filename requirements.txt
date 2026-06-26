@@ -4,4 +4,6 @@ plotly
 numpy
 nbformat
 nbconvert
+ipykernel
+jupyter_client
 matplotlib
