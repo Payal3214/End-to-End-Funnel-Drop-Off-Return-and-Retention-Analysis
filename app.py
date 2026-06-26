@@ -10,7 +10,7 @@ NOTEBOOK_FILE = "End-to-End-Funnel-Drop-Off-Returns-Retention-Analysis-for-a-Fas
 with open(NOTEBOOK_FILE) as f:
     nb = nbformat.read(f, as_version=4)
 
-ep = ExecutePreprocessor(timeout=600, kernel_name="python3")
+ep = ExecutePreprocessor(timeout=600)
 ep.preprocess(nb)
 
 st.success("Notebook executed successfully")
